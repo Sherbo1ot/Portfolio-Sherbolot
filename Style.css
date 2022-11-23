@@ -49,7 +49,6 @@ main {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
 }
 
 #Home {
@@ -58,21 +57,8 @@ main {
 }
 
 .header {
-  overflow: hidden;
   width: 100%;
   position: relative;
-}
-
-.SHER {
-  position: absolute;
-  left: 1070px;
-  top: 342px;
-}
-
-.SHER img {
-  width: 600px;
-  height: 600px;
-
 }
 
 nav {
@@ -106,33 +92,69 @@ nav ul li a:hover {
 }
 
 .content {
-  position: absolute;
-  left: 107px;
-  top: 273px;
-  width: 1097px;
-  height: 140px;
-  flex-wrap: wrap;
-  flex-direction: column;
+  max-width: 1300px;
+  padding-top: 200px;
+  margin: auto;
 }
 
 .content h1 {
   color: white;
-  font-size: 54px;
+  font-size: 50px;
   font-family: 'Montserrat';
-  line-height: 66px;
   font-weight: 700;
+  padding-bottom: 50px;
 }
 
 .content-btn {
-  margin-top: 90px;
   background-color: #fff;
-  width: 250px;
+  width: 222px;
+  margin-bottom: 10px;
 }
 
 .content-btn a {
   text-decoration: none;
   font-size: 28px;
   color: #000;
+}
+
+@media (max-width: 1300px) {
+  .content {
+    padding: 130px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content-btn {
+    margin-left: 50px;
+  }
+
+  .content {
+    padding-top: 130px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+    padding: 50px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  .content h1 {
+    font-size: 38px;
+    padding-top: 150px;
+  }
+
+  .menu2 {
+    display: none;
+  }
 }
 
 .about {

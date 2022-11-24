@@ -709,3 +709,65 @@ ul li a:hover {
   text-transform: capitalize;
   padding-top: 80px;
 }
+
+.contact {
+  background-color: #1a1a1a;
+  color: White;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact .form {
+  width: 45%;
+}
+
+.contact .form label {
+  display: block;
+  color: #d1d6da;
+  margin: 10px 0;
+}
+
+.contact .form input[type="text"] {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.contact .form textarea {
+  background-color: #f200ff61;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.contact .form input[type="submit"] {
+  background-color: white;
+  color: rgb(40, 40, 40);
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+  margin-top: 10px;
+  transition: .4s;
+  color: rgb(25, 25, 25);
+}
+.contact .form input[type="submit"]:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+}
